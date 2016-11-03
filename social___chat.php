@@ -2,7 +2,7 @@
 /**
  *	Plugin Name: Auto Chat
  *	Plugin URI: 
- *	Deacription: TSM is a Social Media Manager
+ *	Deacription: AutoChat is a Social Media Manager
  *	Version: 1.0.0
  *	Text Domain: ac
  *	Domain Path: /lang
@@ -42,4 +42,5 @@ require( dirname( __FILE__ ) . '/core/class/acTemplate.class.php' );
 require( dirname( __FILE__ ) . '/core/class/acAdmin.class.php' );
 require( dirname( __FILE__ ) . '/core/controller.php' );
 
-register_activation_hook( __FILE__, 'tsm_install' );/ac
+register_activation_hook( __FILE__, 'ac_install' );/ac
+ 
